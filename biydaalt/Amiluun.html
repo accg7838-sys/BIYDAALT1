@@ -1,0 +1,369 @@
+<!doctype html>
+<html lang="mn" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Амилуун сургалтын төв</title>
+
+  <!-- CSS: css/style.css -->
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="nav">
+        <a class="brand" href="#top" aria-label="Нүүр">
+          <span class="logo">
+  <img src="Group12.svg" alt="Амилуун лого">
+</span>
+
+          <span>Амилуун сургалтын төв</span>
+        </a>
+
+        <nav class="navlinks" aria-label="Үндсэн цэс">
+          <a href="#about">Танилцуулга</a>
+          <a href="#teachers">Багш нар</a>
+          <a href="#courses">Сонгох хичээлүүд</a>
+          <a href="#pricing">Төлбөр</a>
+        </nav>
+
+        <div class="actions">
+          <button class="btn" id="themeBtn" type="button" aria-label="Theme toggle">🌙</button>
+          <a class="btn primary" id="registerBtnTop" href="#" rel="noopener">Бүртгүүлэх</a>
+          <button class="btn menuBtn" id="openMenu" type="button">Цэс</button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="drawer" id="drawer" aria-hidden="true">
+    <div class="panel" role="dialog" aria-modal="true" aria-label="Mobile menu">
+      <button class="btn" id="closeMenu" type="button">Хаах</button>
+      <a href="#about" class="mLink">Танилцуулга</a>
+      <a href="#teachers" class="mLink">Багш нар</a>
+      <a href="#courses" class="mLink">Сонгох хичээлүүд</a>
+      <a href="#pricing" class="mLink">Төлбөр</a>
+      
+    </div>
+  </div>
+
+  <main id="top">
+    <div class="container">
+
+      <div class="hero">
+        <div class="heroGrid">
+
+          <div class="card heroLeft">
+            <div class="banner" title="Banner зураг"></div>
+
+            <h1>Хоцрогдлоо арилгая<br/>ЭЕШ-д бэлдье</h1>
+<p class="lead">
+  8–21 жилийн туршлагатай багш нарын чанартай, зохион байгуулалттай сургалтаар
+  Улаанбаатар болон орон нутгийн сурагчдад зориулсан тусгай хөтөлбөртэй.
+</p>
+
+<ul class="lead-list">
+  <li>✅ Унших бичих чадварыг хөгжүүлнэ</li>
+  <li>✅ Хоцрогдол богино хугацаанд нөхнө</li>
+  <li>✅ Сургалтын түвшинг ахиулна</li>
+  <li>✅ ЭЕШ-д үр дүнтэй бэлтэнэ</li>
+</ul>
+
+            <div class="ctaRow">
+              <a class="btn primary" id="registerBtnHero" href="#" rel="noopener">Одоо бүртгүүлэх</a>
+              <a class="btn" href="#schedule">Хуваарь харах</a>
+            </div>
+          </div>
+
+          <aside class="card heroRight">
+            <div class="mini">
+              <h3>Урамшуулал дуусах хүртэл</h3>
+              <p class="hint">2026.1.1 хүртэл үлдсэн хугацаа</p>
+
+              <div class="cdGrid" id="countdown" aria-label="Countdown">
+                <div class="cdBox"><b id="d">—</b><small>Өдөр</small></div>
+                <div class="cdBox"><b id="h">—</b><small>Цаг</small></div>
+                <div class="cdBox"><b id="m">—</b><small>Мин</small></div>
+                <div class="cdBox"><b id="s">—</b><small>Сек</small></div>
+              </div>
+
+              <p class="hint" id="cdMsg" style="display:none; margin-top:10px;"></p>
+            </div>
+
+            <div class="mini">
+              <h3>Амилуун</h3>
+              <p class="hint">Таны ахиц эндээс эхэлнэ</p>
+            </div>
+
+            <div class="mini">
+              <h3>Байршил болон холбоо барих</h3>
+              <p class="hint" style="margin-bottom:5px;">Багшийн дээд, UBH CENTER 7-714 тоот</p>
+              <p class="hint" style="margin-bottom:10px;">Хан-уул, PROCON MALL</p>
+
+              <div class="pill-row">
+<a class="btn" href="https://maps.app.goo.gl/QnGTN53E1vomQew6A" target="_blank" rel="noopener">
+  📍 Газрын зураг салбар-1
+</a>
+<a class="btn" href="https://maps.app.goo.gl/5UVBAXUC5qWHbPoE6" target="_blank" rel="noopener">
+  📍 Газрын зураг салбар-
+</a>
+
+                <button class="btn" type="button" data-copy="72557676">📞 72557676</button>
+                <button class="btn" type="button" data-copy="88224389">📞 88224389</button>
+                <button class="btn" type="button" data-copy="90911553">📞 90911553</button>
+                <a class="btn" href="https://www.instagram.com/amiluun_edu?igsh=MXhqeXFrZHplMDRzZw==" target="_blank" rel="noopener">
+                Instagram
+                </a>
+                <a class="btn" href="https://www.facebook.com/share/1CoiC1rYMd/" target="_blank" rel="noopener">
+                Facebook
+                </a>
+              </div>
+
+              <p class="hint" id="copyHint" style="margin-top:10px;display:none;">✅ Хууллаа</p>
+            </div>
+          </aside>
+
+        </div>
+      </div>
+
+      <section id="about">
+        <div class="titleRow">
+          <div>
+            <h2>Танилцуулга</h2>
+            <p>1–12-р ангийн сурагчдын хоцрогдол арилгаж, суурь мэдлэгийг бататган ЭЕШ-д бэлдэх зорилготой цогц сургалт.</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="mini"><h3>🎯 Зорилго</h3><p>Бид таны суурь мэдлэгийг хөгжүүлж, бодит амжилт гаргана.</p></div>
+          <div class="mini"><h3>👨‍🏫 Туршлагатай багш</h3><p>8–21 жилийн туршлагатай, мэргэшсээн багш нарын бүрэлдэхүүн.</p></div>
+          <div class="mini"><h3>📌 Орон нутагт тохиромжтой</h3><p>Орон нутгийн сурагчдын нөхцөлд нийцсэн тусгай хөтөлбөртэй.</p></div>
+        </div>
+      </section>
+
+      <section id="courses">
+        <div class="titleRow">
+          <div>
+            <h2>Хичээлийн сонголд</h2>
+            <p>1 хичээл сонгоод дараа нь хүссэн хичээлээ нэмж сонгон сурах боломжтой.</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="mini"><h3>📘 Математик</h3><p>ЭЕШ, SAT суурь/ахисан түвшин.</p></div>
+          <div class="mini"><h3>🗣️ Англи хэл</h3><p>Үгийн сан, дүрэм, уншлага, сонсгол.</p></div>
+          <div class="mini"><h3>🏛️ Нийгмийн ухаан</h3><p>Сорил 1,2 дээр төвлөрсөн бэлтгэл.</p></div>
+          <div class="mini"><h3>📝 Монгол хэл</h3><p>ЭЕШ-д бэлдэх, бичиглэл сайжруулах.</p></div>
+          <div class="mini"><h3>📜 Монгол бичиг</h3><p>Суурь + шалгалтын бэлтгэл.</p></div>
+          <div class="mini"><h3>🧪 Хими</h3><p>Зөвхөн ЭЕШ бэлтгэлээр дагнасан.</p></div>
+          <div class="mini"><h3>⚡ Физик</h3><p>Олимпиад/ЭЕШ чиглэлтэй.</p></div>
+          <div class="mini"><h3>👶 Бэлтгэл анги</h3><p>5–6 нас: бэлтгэл.</p></div>
+          <div class="mini"><h3>🧮 Соробан/Сампин</h3><p>5–12 нас: тооцоолол, сэтгэхүй.</p></div>
+        </div>
+      </section>
+
+
+      <section id="schedule">
+        <div class="titleRow">
+          <div>
+            <h2>Цагийн хуваарь</h2>
+            <p>Бямба, Ням гараг<b>09:00–18:00 12-р ангийн </b>сурагчдад зориулсан оройн анги.</p>
+          </div>
+        </div>
+
+        <div class="tableWrap">
+          <table>
+            <thead>
+              <tr>
+                <th>Ангилал</th>
+                <th>Цагууд</th>
+                <th>Тайлбар</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><b>1–5-р анги</b></td>
+                <td>
+                  <span class="tag">10:00–12:00</span>
+                  <span class="tag">12:00–14:00</span>
+                  <span class="tag">14:00–16:00</span>
+                </td>
+                <td>Амралтын хөтөлбөрт тохиромжтой.</td>
+              </tr>
+              <tr>
+                <td><b>6–9-р анги</b></td>
+                <td>
+                  <span class="tag">09:00–10:30</span>
+                  <span class="tag">10:30–12:00</span>
+                  <span class="tag">12:30–14:00</span>
+                  <span class="tag">14:00–15:30</span>
+                  <span class="tag">15:30–17:00</span>
+                </td>
+                <td>Өдөр бүрийн давтамж: 7 хоногт 5 удаа.</td>
+              </tr>
+              <tr>
+                <td><b>10-12-р анги</b></td>
+                <td>
+                  <span class="tag">15:00–16:30</span>
+                  <span class="tag">16:30–18:00</span>
+                  <span class="tag">18:00–19:30</span>
+                </td>
+                <td>Хичээлийн үед оройн цагууд. Амралтаар 09:00–18:00.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+
+      <section id="teachers">
+        <div class="titleRow">
+          <div>
+            <h2>Багш нар</h2>
+            <p>Зурагнуудыг `teacher-1.jpg` гэх мэтээр солиорой.</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Нийгмийн багш" /></div>
+              <div>
+                <p class="tname">Нийгмийн багш: Б.Батбаяр</p>
+                <p class="trole">Боловсролын удирдлагын магистр</p>
+                <ul class="bullets">
+                  <li>14 дэх жилдээ ажиллаж байгаа</li>
+                  <li>Нийслэлийн ЕБС-н 33-р сургуульд багш</li>
+                  <li>ЭЕШ-н материал боловсруулах багт ажиллаж байсан</li>
+                  <li>800 оноотой 5 сурагч, 700+ оноотой 30 орчим сурагч төгссөн</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Математикийн багш" /></div>
+              <div>
+                <p class="tname">Математикийн багш: Ж.Пүрэвсүрэн</p>
+                <p class="trole">Боловсрол судлалын магистр</p>
+                <ul class="bullets">
+                  <li>11 жил багшилсан туршлагатай</li>
+                  <li>ЭЕШ онооны дундаж үзүүлэлт 600+</li>
+                  <li>2 хүүхэд 800, 40 гаруй хүүхэд 700+ оноотой төгссөн</li>
+                  <li>SAT math дундаж оноо 600+</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Монгол хэлний багш" /></div>
+              <div>
+                <p class="tname">Монгол хэлний багш: Г.Анхзаяа</p>
+                <p class="trole">Хэл шинжлэлийн магистрант</p>
+                <ul class="bullets">
+                  <li>8 дахь жилдээ багшилж байгаа</li>
+                  <li>1200+ сурагч тэнцүүлсэн (үнэ төлбөргүй сургалтаар)</li>
+                  <li>800 оноотой 4 сурагч, 700+ оноотой 40 орчим сурагч төгссөн</li>
+                  <li>ЭЕШ дундаж оноо 600+</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Математикийн багш" /></div>
+              <div>
+                <p class="tname">Математикийн багш: Б.Уугантуяа</p>
+                <p class="trole">ЭЕШ-н бэлтгэлийн багш</p>
+                <ul class="bullets">
+                  <li>8 дахь жилдээ багшилж байгаа</li>
+                  <li>1200+ сурагч тэнцүүлсэн (үнэ төлбөргүй сургалтаар)</li>
+                  <li>ЭЕШ дундаж оноо 600+</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Физикийн багш" /></div>
+              <div>
+                <p class="tname">Физикийн багш: Г.Ариунбаатар</p>
+                <p class="trole">Боловсрол судлалын доктрант</p>
+                <ul class="bullets">
+                  <li>15 дахь жилдээ багшилж байгаа</li>
+                  <li>ЭЕШ дундаж +650</li>
+                  <li>Улсын чанартай олимпиад, уралдааны бэлтгэгч багш</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="mini">
+            <div class="teacher">
+              <div class="avatar"><img src="download.jpg" alt="Химийн багш" /></div>
+              <div>
+                <p class="tname">Химийн багш: Г.Золбоо</p>
+                <p class="trole">Зөвхөн ЭЕШ бэлтгэлээр дагнан ажиллана</p>
+                <ul class="bullets">
+                  <li>5 дахь жилдээ багшилж байгаа</li>
+                  <li>ЭЕШ дундаж +650</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="pricing">
+        <div class="titleRow">
+          <div>
+            <h2>Төлбөр</h2>
+            <p>1 хичээл сонгоод нэмэлтээр өөр хичээлээ сонгон сурах боломжтой. (Доорх нь 2-3 хичээлийн үнэ)</p>
+          </div>
+        </div>
+
+        <div class="grid3">
+          <div class="mini">
+            <h3>2 хичээл</h3>
+            <p style="font-size:26px; font-weight:950; margin:8px 0;">350,000₮</p>
+            <p>7 хоногт 5 удаа хичээллэнэ.</p>
+          </div>
+          <div class="mini">
+            <h3>3 хичээл</h3>
+            <p style="font-size:26px; font-weight:950; margin:8px 0;">500,000₮</p>
+            <p>Сонголтоо уян хатан нэмж болно.</p>
+          </div>
+          <div class="mini">
+            <h3>Урамшуулал</h3>
+            <br style="margin:0; color:var(--muted); line-height:1.6;">
+            Өвлийн амралтаа MAX ашигла!</br>
+            Шинэ жилийн 1+1 УРАМШУУЛАЛ </br>
+            ХУГАЦАА 2025.12.22 – 2026.01.18
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <div class="footerRow">
+          <div>© <span id="year"></span> Амилуун сургалтын төв</div>
+          <div style="display:flex; gap:14px; flex-wrap:wrap;">
+            <a href="#top">Буцах</a>
+          </div>
+        </div>
+      </footer>
+
+    </div>
+  </main>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
